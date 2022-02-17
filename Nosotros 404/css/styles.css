@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Reset para los REMS - 62.5% = 10 px de 16px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Body*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: center;
+}
+/* Index Menu Principal */
+.nombre_equipo{
+    color: white;
+    font-size: 40px;
+}
+.nombre_equipo h1{
+    margin: 0;
+    font-weight: 300;
+}
+.img_logo_menu{
+    max-width: 30%;
+    border-radius: 25%;
+}
+
+.body_menu{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    background: rgb(51,51,51);
+    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(26,37,37,1) 50%, rgba(34,103,102,1) 100%);
+}
+
+.navegador_menu_equipo{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-row: auto;
+}
+
+.navegador_menu_equipo a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 30px;
+    transition: 1s;
+}
+.navegador_menu_equipo a:hover{
+    background-color: white;
+    color: black;
+}
