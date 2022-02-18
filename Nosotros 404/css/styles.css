@@ -32,7 +32,7 @@ body {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     background: rgb(51,51,51);
-    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(26,37,37,1) 50%, rgba(34,103,102,1) 100%);
+    background: linear-gradient(90deg, rgb(36, 36, 36) 0%, rgb(100, 100, 100) 50%, rgb(36, 36, 36) 100%);
 }
 
 .navegador_menu_equipo{
@@ -54,3 +54,44 @@ body {
     background-color: white;
     color: black;
 }
+/* Joan Luna*/
+.curriculum_joan{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-row: auto;
+    margin-top: 50px;
+    color: white;
+}
+.imagen_joan{
+    grid-column: 1;
+    grid-row: 1;
+}
+.foto_perfil{
+    max-width: 70%;
+    border-radius: 50%;
+}
+.datos_generales_joan{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    
+}
+.datos_generales_joan h1{
+    font-weight: 100;
+    font-size: 40px;
+}
+.datos_generales_joan h2{
+    font-weight: 200;
+    font-size: 30px;
+}
+.curriculum{
+    grid-column: 1/3;
+    grid-row: 2;
+}
+.curriculum h3{
+    margin: 0;
+    font-weight: 100;
+    font-size: 25px;
+}
+/* ################### */
