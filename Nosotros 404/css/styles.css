@@ -95,3 +95,69 @@ body {
     font-size: 25px;
 }
 /* ################### */
+
+/* SofiSinaloa Ae*/
+.fotoSofia{
+    float: right; 
+    width: 20rem;
+    height: 20rem; 
+}
+.info { 
+    width: 500px; 
+    float: left; 
+}
+.info p { 
+    color: white; 
+    text-align: justify;
+}
+
+.margenpagina{
+    width: 800px;  
+    margin: 5rem auto 7rem;
+}
+
+.espacioblanco{
+    clear: both;
+}
+
+.nombresuperior h1{
+ 
+    margin: 0 0 16px 0; 
+    padding: 0 0 16px 0; 
+    font-size: 42px; 
+    font-weight: bold; 
+    color: white; 
+    text-align: justify;
+}
+
+.separadores h2{
+    font-size: 15px; 
+    margin: 0 0 6px 0; 
+    position: relative; 
+    text-align: justify;
+}
+
+.info, .contactinfo, .separadores p{
+    margin: 0 0 16px 0; 
+    color: white;
+    text-align: justify;
+}
+
+.separadores dt { 
+    font-size: 18px; 
+    text-align: right; 
+    padding: 0 26px 0 0; 
+    width: 150px; 
+    float: left; 
+    height: 100px; 
+    border-right: 1px solid darkgray; 
+    color: white;
+    text-align: justify;
+}
+
+.separadores dd { 
+    width: 600px; 
+    float: right;
+}
+
+/*cuteeee*/
