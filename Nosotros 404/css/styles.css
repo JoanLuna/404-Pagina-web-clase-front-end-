@@ -5,11 +5,6 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
-    margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 }
 
 /*Body*/
@@ -29,14 +24,8 @@ body {
     font-weight: 300;
 }
 .img_logo_menu{
-    max-width: 25%;
-    /*border-radius: 25%;
-    float: left;*/
-    float: left; 
-    width: 20rem;
-    height: 20rem; 
-    border-radius: 10%;
-
+    max-width: 30%;
+    border-radius: 25%;
 }
 
 .body_menu{
@@ -171,101 +160,4 @@ body {
     float: right;
 }
 
-.fragmentos h2{
-    color: white;
-}
-
 /*cuteeee*/
-
-/*menu*/
-
-
-header{
-	width: 100%;
-}
-
-.navegacion{
-	width: 1000px;
-	margin: 30px auto;
-	background: #fff;
-}
-
-.navegacion ul{
-	list-style: none;
-}
-
-.menu > li{
-	position: relative;
-	display: inline-block;
-}
-
-.menu > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: #353535;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.menu li a:hover{
-	color: #CE7D35;
-	transition: all .3s;
-}
-
-/* Submenu*/
-
-.submenu{
-	position: absolute;
-	background: #333333;
-	width: 120%;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
-}
-
-.submenu li a{
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.menu li:hover .submenu{
-	visibility: visible;
-	opacity: 1;
-}
-
-
-/*descripción*/
-
-.descrip{
-    /*color: white; 
-    text-align: justify;
-    width: 500px; 
-    float: left; 
-    margin-left: 10em;*/
-
-    width: 500px; 
-    float: right; 
-    /*margin-right: 10em;*/
-    text-align: justify;
-    color: #fff;
-}
-
-.nombreempresa h1{
- 
-    margin: 0 0 16px 0; 
-    padding: 0 0 16px 0; 
-    font-size: 42px; 
-    font-weight: bold; 
-    color: white; 
-    text-align: center;
-    
-}
-
-.blog{
-    padding: 25px;
-    color: white;
-    
-}
